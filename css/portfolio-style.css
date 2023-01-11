@@ -16,10 +16,10 @@ header{
     background-color: #000000;
     color: #ffffff;
 }
-.my-name{
+.title{
     padding-top: 52px;
     font-size: 20px;
-    width: 160px;
+    width: 260px;
     float: left;
     margin-right: 20px;
 }
@@ -38,7 +38,7 @@ li{
 }
 .first-section{
     background-color: #000000;
-    height: 580px;
+    height: 568px;
     background: url(../img/background.png);   
     background-repeat: no-repeat;
     background-position: center;
@@ -61,7 +61,7 @@ li{
     width: 256px;
     border-radius: 40px;
     padding: 20px 80px 20px 80px;
-    border-color: #ffffff;
+    border:1px solid #ffffff;
     background-color: transparent;
     cursor: pointer;
     color: #ffffff;
@@ -128,28 +128,28 @@ li{
     
 }
 .logo-ps{
-    background: url(../img/Adobe_Photoshop_CC_icon.svg);
+    background: url(../img/skills/Adobe_Photoshop_CC_icon.svg);
     background-size: cover;
 }
 .logo-xd{
-    background: url(/img/Adobe_XD_CC_icon.svg);
+    background: url(../img/skills/Adobe_XD_CC_icon.svg);
     background-size: cover;
 }
 .logo-figma{
-    background: url(/img/figma.svg);
+    background: url(../img/skills/figma.svg);
     background-size: cover;
     background-color: #ffffff;
 }
 .logo-html5{
-    background: url(/img/html5.png);
+    background: url(../img/skills/html5.png);
     background-size: cover;
 }
 .logo-css3{
-   background: url(/img/css.png);
+   background: url(../img/skills/css.png);
    background-size: cover;
 }
 .logo-js{
-    background: url(/img/javascript.svg);
+    background: url(../img/skills/javascript.svg);
     background-size: cover;   
 }
 .service{
@@ -206,7 +206,7 @@ li{
     padding-top: 48px;
 }
 .works_examples__link{
-    background: url(../img/website_one.png);
+    background: url(../img/works/website_one.png);
     background-repeat: no-repeat;
     height: 321px;
     width: 572px;
