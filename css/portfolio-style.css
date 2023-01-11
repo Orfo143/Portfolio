@@ -164,12 +164,11 @@ row-gap: 20px;
     border-image-width: 25px;
 }
 .soft-logo_container div{
-    display: inline-block;
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
 }
-
 .soft-logo_container p{
-    margin: 16px 0 0 20px;
-    float: right;
     font-size: 18px;
 }
 .soft-logo_block{
