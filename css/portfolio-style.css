@@ -1,41 +1,125 @@
-@import url(//db.onlinewebfonts.com/c/9fec49000d19287b2e54f5b12e6b9005?family=AdriaGroteskW00-Light);
-@font-face {font-family: "AdriaGroteskW00-Light"; src: url("//db.onlinewebfonts.com/t/9fec49000d19287b2e54f5b12e6b9005.eot"); src: url("//db.onlinewebfonts.com/t/9fec49000d19287b2e54f5b12e6b9005.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/9fec49000d19287b2e54f5b12e6b9005.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/9fec49000d19287b2e54f5b12e6b9005.woff") format("woff"), url("//db.onlinewebfonts.com/t/9fec49000d19287b2e54f5b12e6b9005.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/9fec49000d19287b2e54f5b12e6b9005.svg#AdriaGroteskW00-Light") format("svg"); }
-body{
-    font-family: 'AdriaGroteskW00-Light', 'no-serif';
+@import "../css/reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&family=Noto+Sans:wght@400;600&family=Roboto:wght@400;700&display=swap');
+.none{
+    display: none;
+}
+/* font-family: 'Noto Sans', sans-serif; */
+/* font-family: 'Fira Sans', sans-serif; */
+html, body{
+    font-family: 'Noto Sans', sans-serif;
+
 }
 a{
     cursor: pointer;
+}
+.container{
+    padding: 0 15px;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+/* nav */
+
+.nav{
+    padding: 40px 0 20px;
     color: #ffffff;
-    text-decoration: none;
-}
-.fixed-container{
-    max-width:1140px;
-    margin: auto;
-}
-header{
     background-color: #000000;
+}
+.nav-row{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   align-items: center;
+   column-gap: 30px;
+   row-gap: 20px;  
+}
+.logo{
     color: #ffffff;
+    font-size: 24px;
 }
-.title{
-    padding-top: 52px;
-    font-size: 20px;
-    width: 260px;
-    float: left;
-    margin-right: 20px;
+.logo strong{
+    font-family: 'Fira Sans', sans-serif;
 }
-li{
+.nav-list {
+    display: flex;
+    align-items: center;
+    column-gap: 40px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.nav-list__link {
+    color: #ffffff;
+    background-image: linear-gradient(#017086, #017086);
+    background-position: 50% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+    padding: 3px 0;
+}
+.nav-list__link:hover{
+        background-size: 100% 2px;
+}
+
+/* header */
+
+.header{
+    color: #ffffff;
+    background: url(../img/background.png), #000000;
+    background-repeat: no-repeat;  
+    background-position: right 0% top 25%; 
+    min-height: 568px;
+}
+.header-title{
+    padding-top: 100px;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.header-title strong{
+    font-size: 60px;
+    word-spacing: -0.5px;
+}
+.header-title span{
+    color: #017086;    
+}
+.header-text{
+    margin-bottom: 50px;
+    font-size: 16px;
+}
+.header-btn{
     display: inline-block;
-    margin-left: 40px;
+    padding: 20px 0;
+    text-align: center;
+    border: 1px solid #017086;
+    border-radius: 40px;
+    color: #017086;
+    max-height: 60px;
+    width: 256px;
+    transition: 0.2s ease-in;
 }
-.header-top{
-    height: 130px;
-    background: #000000;
-    font-size: 14px;
+.header-btn:hover{
+    background-color: #017086;
+    color: #000000;
 }
-.header-top ul{
-    float: right;
-    margin: 55px 0 55px;
+.header-btn:active{
+    position: relative;
+    top: 1px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .first-section{
     background-color: #000000;
     height: 568px;
@@ -49,7 +133,8 @@ li{
 }
 .my-portfolio h1{
     font-size: 80px;
-    max-width: 562px;    
+    max-width: 562px; 
+    font-family: 'Fira Sans', sans-serif;   
 }
 .my-portfolio p{
     margin-top: 15px;

@@ -23,8 +23,8 @@ ol {
 	list-style: decimal;
 }
 ul {
-	padding-left: 1.4em;
-	list-style: square;
+
+	list-style: none;
 }
 table {
 	border-collapse: collapse;

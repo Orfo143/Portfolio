@@ -5,43 +5,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pichkalev Victor</title>
-    <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/portfolio-style.css">
-    <link href="//db.onlinewebfonts.com/c/9fec49000d19287b2e54f5b12e6b9005?family=AdriaGroteskW00-Light" rel="stylesheet" type="text/css"/>
 </head>
 <body>
-    <header>
-            <div class="header-top">
-                <div class="fixed-container">
-                <div class="title">My porfolio web-site</div>
-                <ul>
-                    <li><a href="#">Самопрезентация</a></li>
-                    <li><a href="#">Услуги</a></li>
-                    <li><a href="#">Достижения</a></li>
-                    <li><a href="#">Голос клиента</a></li>
+    <nav class="nav">
+        <div class="container">
+            <div class="nav-row">
+                <a href="./index.html" class="logo"><strong>My portfolio</strong> web-site</a>
+                <ul class="nav-list">
+                    <li class="nav-list__item"><a href="#" class="nav-list__link">Works</a></li>
+                    <li class="nav-list__item"><a href="#" class="nav-list__link">Skills</a></li>
+                    <li class="nav-list__item"><a href="#" class="nav-list__link">About</a></li>
+                    <li class="nav-list__item"><a href="#" class="nav-list__link">Contacts</a></li>
                 </ul>
-                </div>
             </div>
-            <div class="first-section">
-                <div class="fixed-container">
-                    <div class="my-portfolio">
-                        <h1>Hi, my name is Victor</h1>
-                        <p>Пожалуйста, доверьте мне всю работу, связанную с разработкой и созданием сайта.</p>
-                        <button class="buttons">View Works</button>
-                    </div>
-                </div>
-            </div>
+        </div>
+    </nav>
+    <header class="header">
+        <div class="container">
+           <h1 class="header-title"><strong>Hi, my name<br>is <span>Victor</span></strong><br>a frontend developer</h1>
+           <p class="header-text">Please entrust me with all the work related<br>
+            with the development and creation of the site.</p>
+            <a href="#" class="header-btn">GitHub profile</a>
+        </div> 
     </header>
     <main>
-        <section class="about fixed-container">
+        <section class="about">
+            <div class="container">
                 <div class="about_img"></div>
                 <div class="about_text">
                     <h2>About me</h2>
                     <p>Меня зовут Виктор. Некоторое время назад мне нужен был сайт, соответственно, нужно было придумать макет и я обратился к "специалистам", но никто не смог нарисовать тот макет, который понравился бы мне... Тогда я принял решение и обучился веб дизайну. Да, сначала было интересно, но позанимавшись около года этим делом понял, что мне это не интересно и некоторые из моих макетов, которые передавались дальше в вёрстку я не узнавал.</p>
                     <p>Верстаю и простые лендинги, и сложные сайты типа магазинов, корпоративных сайтов, порталов, но берусь только за интересные для меня проекты. То есть если предложенный проект мне верстать будет неинтересно, то вряд ли я за него возьмусь. Насколько интересные макеты вы мне можете предложить?</p>
                 </div> 
+            </div>
         </section>
-        <section class="skills">
+        <section class="skills none">
             <div class="fixed-container">
                 <h2>Skills</h2>
                 <div class="soft-logo_container">
@@ -54,7 +53,7 @@
                 </div>
             </div>
         </section>
-        <section class="service">
+        <section class="service none">
             <h2 class="fixed-container">Service
                 <h4 class="fixed-container">What am I doing</h4>
             </h2>
@@ -78,7 +77,7 @@
                 </div>               
             </div>
         </section>
-        <section class="works">
+        <section class="works none">
             <div class="fixed-container">
                 <div class="works_title">
                     <h2>Works
