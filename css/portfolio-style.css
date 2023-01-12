@@ -230,12 +230,12 @@ row-gap: 20px;
     background: #f9f9ff;
 }
 .service h2{
+    padding-top: 130px;
     font-size: 24px;
     color: #6363db;
 }
 .service h4{
     font-size: 40px;
-    padding-bottom: 54px;
 }
 .service-container{
     display: flex;
@@ -245,6 +245,7 @@ row-gap: 20px;
     row-gap: 20px;
 }
 .service_block{
+    margin-top: 54px;
     height: 196px;
     width: 265px;
     background: #ffffff;
