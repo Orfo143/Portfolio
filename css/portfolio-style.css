@@ -6,8 +6,7 @@
 /* font-family: 'Noto Sans', sans-serif; */
 /* font-family: 'Fira Sans', sans-serif; */
 html, body{
-    font-family: 'Noto Sans', sans-serif;
-
+    font-family: 'Roboto', sans-serif;
 }
 a{
     cursor: pointer;
@@ -51,6 +50,7 @@ a{
     column-gap: 40px;
     font-size: 16px;
     font-weight: 500;
+    font-family: 'Noto Sans', sans-serif;
 }
 .nav-list__link {
     color: #ffffff;
@@ -84,6 +84,7 @@ a{
     font-size: 30px;
     margin-bottom: 30px;
     animation: header-box 3s ease-in;
+    font-family: 'Noto Sans', sans-serif;
 }
 .header-title strong{
     font-size: 60px;
@@ -225,7 +226,7 @@ row-gap: 20px;
 
 .service{
     margin: 0 auto;
-    height: 608px;
+    min-height: 608px;
     max-width: 1437px;
     background: #f9f9ff;
 }
@@ -236,6 +237,7 @@ row-gap: 20px;
 }
 .service h4{
     font-size: 40px;
+    margin-bottom: 54px;
 }
 .service-container{
     display: flex;
@@ -243,9 +245,9 @@ row-gap: 20px;
     justify-content: space-between;
     column-gap: 20px;
     row-gap: 20px;
+    padding: 0 15px 20px 15px;
 }
 .service_block{
-    margin-top: 54px;
     height: 196px;
     width: 265px;
     background: #ffffff;
@@ -261,36 +263,74 @@ row-gap: 20px;
 .service_block h3{
     padding: 0 20px;
 }
-.works_title h2{
+
+/* works */
+.projects{
+    padding: 130px 0 40px ;
+}
+.project_title h2{
     font-size: 24px;
     color: #6363db;
 }
-.works_title h4{
+.project_title h4{
     font-size: 40px;
 }
-.works_examples{
+.project_examples{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    column-gap: 60px;
+    row-gap: 20px;
     padding-top: 48px;
 }
-.works_examples__link{
-    background: url(../img/works/website_one.png);
+.project_examples__link{
+    background: url(../img/works/web-site1.jpg);
     background-repeat: no-repeat;
+    background-size: contain;
     height: 321px;
     width: 572px;
 }
-.works_examples_text{
-    width: 510px;
-}
-.works_examples_text h2{
+.project_examples_text h2{
     padding-bottom: 27px;
     font-size: 26px;
 }
-.works_examples_text h4{
-    padding: 74px 0 16px;
+.project_examples_text p{
+    font-size: 18px;
+}
+.project_examples_text h4{
+    padding: 50px 0 16px;
     font-size: 22px;
 }
-.works_examples_text p{
-    font-size: 20px;
+.features-wrapper{
+    display: flex;  
+    column-gap: 5px;
+    align-items: center;
 }
+.features-wrapper p{
+    font-size: 18px;
+}
+.project-btn{
+    display: inline-block;
+    margin-top: 40px;
+    max-height: 60px;
+    background:url(../img/works/github-white.png) #000000;
+    background-repeat: no-repeat;
+    background-position: left 25% top 50%;
+    color: #ffffff;
+    border-radius: 40px;
+    padding: 20px 60px 20px 110px;
+    text-align: center;
+    transition: 0.2s ease-in;
+}
+.project-btn:active{
+    position: relative;
+    top: 1px;
+}
+.project-btn:hover{
+    background:url(../img/works/github-black.png) #ffffff;
+    background-repeat: no-repeat;
+    background-position: left 15% top 50%;
+    color: #000000;
+    border: 2px solid #000000;
+    padding: 20px 40px 20px 130px;
+}
+
