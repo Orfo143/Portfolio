@@ -221,29 +221,30 @@ row-gap: 20px;
     background-size: cover;   
 }
 
-
+/* service */
 
 .service{
-    margin: auto;
+    margin: 0 auto;
     height: 608px;
     max-width: 1437px;
     background: #f9f9ff;
 }
 .service h2{
-    padding-top: 130px;
     font-size: 24px;
     color: #6363db;
 }
 .service h4{
     font-size: 40px;
+    padding-bottom: 54px;
 }
 .service-container{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    column-gap: 20px;
+    row-gap: 20px;
 }
 .service_block{
-    margin-top: 54px;
     height: 196px;
     width: 265px;
     background: #ffffff;
@@ -251,7 +252,6 @@ row-gap: 20px;
     text-align: center;
     color: #6363db;
     font-size: 20px;
-    text-align: center;
 }
 .service_block img{
     width: 100px;
@@ -259,9 +259,6 @@ row-gap: 20px;
 }
 .service_block h3{
     padding: 0 20px;
-}
-.works_title{
-    padding-top: 130px;
 }
 .works_title h2{
     font-size: 24px;
@@ -296,4 +293,3 @@ row-gap: 20px;
 .works_examples_text p{
     font-size: 20px;
 }
- */
